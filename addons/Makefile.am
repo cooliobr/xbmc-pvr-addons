@@ -3,14 +3,7 @@ if ADDON_MYTHTV
 endif
 
 SUBDIRS = pvr.demo \
-          pvr.dvbviewer \
           pvr.hts \
-          pvr.mediaportal.tvserver \
-          pvr.nextpvr \
-          pvr.vdr.vnsi \
-          pvr.njoy \
-          pvr.vuplus \
-          pvr.argustv \
           pvr.iptvsimple \
           $(ADDITIONAL_SUBDIRS)
 
