@@ -86,7 +86,7 @@ PVRIptvData::PVRIptvData(void)
 
   if (LoadPlayList())
   {
-	  XBMC->QueueNotification(QUEUE_INFO, "%d channels loaded.", m_channels.size());
+	  XBMC->QueueNotification(QUEUE_INFO, "%d Canais carregados.", m_channels.size());
   }
 }
 
@@ -227,7 +227,7 @@ bool PVRIptvData::LoadEPG(time_t iStart, time_t iEnd)
 
 	if (m_epg.size() == 0) 
 	{
-		XBMC->Log(LOG_ERROR, "EPG channels not found.");
+		XBMC->Log(LOG_ERROR, "EPG não encontrado.");
 		return false;
 	}
 	
@@ -493,7 +493,7 @@ bool PVRIptvData::LoadPlayList(void)
 
 	ApplyChannelsLogos();
 
-	XBMC->Log(LOG_NOTICE, "Loaded %d channels.", m_channels.size());
+	XBMC->Log(LOG_NOTICE, "Carregado %d canais.", m_channels.size());
 	return true;
 }
 
