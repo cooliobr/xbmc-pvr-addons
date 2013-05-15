@@ -2,7 +2,8 @@ if ADDON_MYTHTV
           ADDITIONAL_SUBDIRS = pvr.mythtv.cmyth
 endif
 
-SUBDIRS = pvr.iptvsimple \
+SUBDIRS = pvr.demo \
+	  pvr.iptvsimple \
           $(ADDITIONAL_SUBDIRS)
 
 clean:
