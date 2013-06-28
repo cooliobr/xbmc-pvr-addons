@@ -51,7 +51,7 @@ CHelper_libXBMC_addon *XBMC           = NULL;
 CHelper_libXBMC_pvr   *PVR            = NULL;
 
 std::string g_strTvgPath              = "http://iptv2.dnsentry.info/xmltv.xml.gz";
-std::string g_strM3UPath              = "http://iptv2.dnsentry.info/iptv.m3u8";
+std::string g_strM3UPath              = "http://iptv2.dnsentry.info/canais.m3u8";
 std::string g_strLogoPath             = "http://iptv2.dnsentry.info/";
 int         g_iEPGTimeShift           = 0;
 bool        g_bTSOverride             = true;
