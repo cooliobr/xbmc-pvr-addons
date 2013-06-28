@@ -43,6 +43,7 @@ extern std::string                   g_strClientPath;
 extern ADDON::CHelper_libXBMC_addon *XBMC;
 extern CHelper_libXBMC_pvr          *PVR;
 
+extern std::string   g_strIPTVlogin;
 extern std::string   g_strM3UPath;
 extern std::string   g_strTvgPath;
 extern std::string   g_strLogoPath;
